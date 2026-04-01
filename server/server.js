@@ -10,7 +10,7 @@ import aiRouter from "./routes/aiRoutes.js";
 const app = express();
 app.use(cors({
   origin: [
-    "https://your-frontend.vercel.app",
+    "https://localhost:5173",
     "https://resume-builder-two-kohl.vercel.app/"
   ],
   credentials: true
