@@ -67,6 +67,7 @@ const Login = () => {
                 </button>
                 <p onClick={() => setState(prev => prev === "login" ? "register" : "login")} className="text-gray-500 text-sm mt-3 mb-11">{state === "login" ? "Don't have an account?" : "Already have an account?"} <a href="#" className="text-green-500 hover:underline">click here</a></p>
             </form>
+            
     </div>
   )
 }
